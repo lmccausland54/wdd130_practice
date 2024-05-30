@@ -147,32 +147,30 @@
   height: 400px;
 }
 .red5 { 
-  width: 500px; 
+  width: 800px; 
   height: 100px; 
   background-color: red; 
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
+  z-index: 2;
+  float: left;
   
 
 } 
 .yellow5 {
-  width: 500px; 
-  height: 300px; 
-  position: relative;
-  bottom: 200px;
-  z-index: -1;
+  width: 800px; 
+  height: 2500px; 
+  z-index: 1;
   background-color: gold; 
  
   
 } 
 .blue5 {
-  width: 500px; 
+  width: 800px; 
   height: 100px; 
-  position: relative;
-  bottom: 200px;
   background-color: blue; 
 } 
 
